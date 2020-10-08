@@ -77,7 +77,7 @@ MIRROR=${MIRROR:-http://nl.alpinelinux.org/alpine}
 SAVE=${SAVE:-0}
 MAINREPO=$MIRROR/$REL/main
 ADDITIONALREPO=$MIRROR/$REL/community
-ARCH=armhf
+ARCH=aarch64
 ARCH=${ARCH:-$(uname -m)}
 
 tmp
