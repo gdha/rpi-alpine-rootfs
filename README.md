@@ -2,8 +2,10 @@
 
 # Docker Image : Raspberry PI Alpine Linux minimal Rootfs (64-bit version aka Pi-4)
 
-Pupose is building automatically **Alpine Linux Docker image** for *aarch64* **RaspberryPi**.
+Purpose is building automatically **Alpine Linux Docker image** for *aarch64* **RaspberryPi**.
 
+- [Find latest version of alpinelinux](http://nl.alpinelinux.org/alpine/)
+- Edit build.sh to update version of alpine
 - build.sh simply:
 	- call mkimage-alpine.sh with args to build **Docker image**
 	- finally, pushing it to my **GitHub Docker Container Registry hub** repo.

@@ -55,7 +55,7 @@ save() {
 while getopts "hr:m:s" opt; do
 	case $opt in
 		r)
-			REL=$OPTARG
+			REL="$OPTARG"
 			;;
 		m)
 			MIRROR=$OPTARG
