@@ -1,5 +1,5 @@
 # Using GitHub docker container registry
-ALPINE_VERSION="v3.17"
+ALPINE_VERSION="v3.19"
 cat ~/.ghcr-token | docker login docker.pkg.github.com -u gdha --password-stdin
 echo "Building alpine:$ALPINE_VERSION"
 sudo ./mkimage-alpine.sh -s -r "$ALPINE_VERSION"
